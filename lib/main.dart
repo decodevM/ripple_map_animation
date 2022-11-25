@@ -5,7 +5,7 @@ import 'map_screen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(statusBarBrightness: Brightness.dark));
+      const SystemUiOverlayStyle(statusBarBrightness: Brightness.dark));
   runApp(const MyApp());
 }
 
